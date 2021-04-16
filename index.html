@@ -1,0 +1,49 @@
+<!-- 
+Programa con JS un botón para convertir las cantidades con el formato de moneda correcto para México; 
+ejemplo correcto: $1,000.00 MXN (signo de pesos, coma como separador de miles cada tres 
+cifras y punto como separador de decimales).
+Despliega el resultado en el formato de HTML que gustes, adentro de la etiqueta de section con id de resultado.
+
+Notas:
+
+No puedes modificar directamente el HTML, pero si gustas, puedes crear o modificar tu propia estructura de HTML en tu resultado.
+
+No es necesario hacer el reto aquí en Codepen. Puedes usar la plataforma o herramienta que tú gustes.
+
+¡Mucha suerte!
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cantidades</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cantidades</h1>
+    </header>
+    <main>
+      <section id="datos">
+        <ul>
+          <li class="item1">1200 MXN</li>
+          <li class="item2">$ 998.90</li>
+          <li class="item3">2.440,50</li>
+          <li class="item4">34000,00</li>
+        </ul>
+        <p class="total">Total: 38,639.4</p>
+        <button id="convertir">Convertir</button>
+        <button id="limpiar">Limpiar</button>
+      </section>
+      <section id="resultado"></section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
